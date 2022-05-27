@@ -6,3 +6,7 @@
 <% @tv_shows.each do |tv_show| %>
     Name: <%= tv_show.name %><br>
 <% end %>
+
+<a href="/welcome">go back to welcome page</a>
+<%= link_to 'go to series list', tv_shows_path %>
+<%= link_to 'go back to welcome page', welcome_path %>
