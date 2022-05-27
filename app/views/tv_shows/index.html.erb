@@ -1,0 +1,8 @@
+<h1>TvShows#index</h1>
+<h1>¡Hola, Rails!</h1>
+<p>Find me in app/views/tv_shows/index.html.erb</p>
+
+<h1>Listado de Series de TV</h1>
+<% @tv_shows.each do |tv_show| %>
+    Name: <%= tv_show.name %><br>
+<% end %>
